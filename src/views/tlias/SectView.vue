@@ -74,6 +74,8 @@ export default {
         },
         handleSizeChange(val) {
             alert(`每页 ${val} 条`);
+            // 演示修复bug
+            console.log(val);
         },
         handleCurrentChange(val) {
             alert(`当前页: ${val}`);
