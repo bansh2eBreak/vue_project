@@ -85,7 +85,7 @@ export default {
             this.tableData = result.data.data;
         }).catch(error => {
             //处理错误
-            console.log(error)
+            alert(error)
         })
     }
 }
